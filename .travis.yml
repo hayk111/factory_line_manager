@@ -1,15 +1,12 @@
 sudo: false
-
 language: node_js
 node_js:
-  - 9
-
+- 9
 branches:
   only:
-    - master
-
+  - master
 deploy:
   provider: heroku
-  app: "factory-line-manager-4545"
+  app: factory-line-manager-4545
   api_key:
-    secure: "12345"
+    secure: I08HAv+l8TEHgd0QifZhLHcWUi73qxlGj11gJV6andl2s6bhOsVdDfet+JtTQSoWqkqLCNwjTnhQ4jG8CcyH5ubUz9JjMyhC1GnYrVWsaxnCZ82h6fXQ84sf+srTIws1654OlqpKPT6eLmD8C91K1B20o6SQNKQM674py9XEZzWr6W+ikslN5GZzTx7AXNiVRhaJ1kQWwB70MWxUlVScFu+8RQG+6XSAT28namoiGjYZ87W8OB3lRp35U901TzRxRqGAH2zgd0VibSJvykkh5btL+tXJxTBC3MDJp96YJOhus06c4/mmnP3iFBn5XMMWCzytYZCPIW4NbubmWOutSSD6NO2Bqx72MwwG0Frio9wMjN38CSUcDWTsaJv+nE+GW2DhTqkjzMYDjHSG3rQExlRneKujIyeXa61eRcR2g7m5N8On/XJ8URDJuM8KMUQz3DTPrRuQkwqqr9SX5aLs50BDe2FZ80/RfUMGu4covHhezDqgcGu+NdLp1zXUvT42lMtNDlGsvq3JxE9pNdotfbpAKzWexjHXr2rwH/KtirLGZJipJu1HfRfQgMhIyxUaaOu9Hspy7Pq4s+EF7eLDiOql1brQ119m0gHcX1BCWJ+WHAQ603h2m7OpJuVCQs5s2bQx3Lme5cwL/fKRQnzDnjx0m9lXivRpchTb8YL1La4=
